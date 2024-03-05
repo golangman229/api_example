@@ -1,1 +1,3 @@
-# api_example
+# npm i 
+
+# node server.js
