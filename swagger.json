@@ -1,0 +1,20 @@
+{
+    "swagger": "2.0",
+    "info": {
+        "title": "My API",
+        "description": "This is a sample API for demonstrating Swagger documentation",
+        "version": "1.0.0"
+    },
+    "host": "localhost:3000",
+    "basePath": "/api",
+    "schemes": [
+        "http"
+    ],
+    "securityDefinitions": {
+        "apiKey": {
+            "type": "apiKey",
+            "name": "x-api-key",
+            "in": "header"
+        }
+    }
+}
